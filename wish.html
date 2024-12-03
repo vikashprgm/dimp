@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>    
+</head>
+<body>
+    <div class="flex flex-col items-center justify-center min-h-screen">
+        <h1 class="mt-2 text-lg font-semibold text-center text-gray-800 capitalize lg:text-4xl">Congrats on passing All  Levels !!</h1>
+        <h1 class="mt-2 text-lg text-center text-gray-800 lg:text-4xl" style="padding-bottom: 20px;">You're Smart, You deserve a gift</h1>
+        <div class="max-w-md space-y-6">
+            <div class="flex justify-center">
+                <img  src="cat.jpeg" alt="" style="width: 300px; border-radius: 30px;">
+            </div>
+        <h1 class="mx-10 text-xl font-semibold text-center text-gray-800 capitalize lg:text-4xl">This magical cat will try to fulfill your wishes</h1>
+        <!-- <h1 class="mt-6 text-xl font-semibold text-center text-gray-800 capitalize lg:text-4xl">fulfill your wishes</h1> -->
+        <div class="flex justify-center items-center space-x-5">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjft_pCIUvpt7H1sAE0dJVY7rFY9ryxU5uvSxrLUgGznFJBw/viewform?embedded=true" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+        <div style="padding-bottom: 40px; padding-top: 10px;" class="flex justify-center">
+            <button onclick="" id="go-button" class="px-6 py-2 tracking-wide text-white capitalize transition-colors duration-200 bg-red-600 transform rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                ONE LAST THING!
+            </button>
+        </div>
+    <script>
+        const goButton = document.getElementById("go-button");
+        goButton.addEventListener("click", () => {
+            window.location.href = "hbd.html";
+        });
+    </script>
+
+</body>
+</html>

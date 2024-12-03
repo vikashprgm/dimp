@@ -13,9 +13,16 @@
 <body>
     <canvas id="canvas">Canvas is not supported in your browser - sorry.</canvas>
     <h1 id="message">Happy Birthday Akashi!</h1>
-    
+    <iframe src="jupi.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
 <script src="hbd.js">
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
 </script>
-
 </body>
 </html>

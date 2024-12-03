@@ -388,7 +388,7 @@ function function_fade_in(opacity_value) {
 
 //keep code handy for when we want to insert the new message --
 function newMessage(){
-myElement.innerHTML = '<h2>Hope you have a spectacular day!</h2>';	
+myElement.innerHTML = '<h2>Always Keep Smiling!</h2>';	
 fade_in_button();
 }
 
